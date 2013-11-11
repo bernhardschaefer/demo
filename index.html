@@ -822,15 +822,18 @@ function sparqlExample(i) {
             <select id="annotation_language" class="action_button">
             </select>
             <br/>
-            <!--<select id="disambiguator" class="action_button">
+			<label for="disambiguator">Disambiguator:</label>
+            <select id="disambiguator" class="action_button">
                 <option value="Default" selected>Default Disambiguation</option>
+                <option value="CuttingEdge" >Cutting Edge Disambiguation</option>
                 <option value="Occurrences">Occurrence-centric</option>
                 <option value="Document">Document-centric</option>
+                <option value="GraphBased">Graph-based Disambiguation</option>
             </select>
-            <br />-->
+            <br />
 
             
-            <br/><br/><br/>
+            <br/>
             <input class="action_button" id="types" type="button" enabled value="Select types…"/>
 
             <input class="action_button" id="annotate" type="button" enabled value="Annotate"/>
